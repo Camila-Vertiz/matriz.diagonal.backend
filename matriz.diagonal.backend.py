@@ -18,7 +18,7 @@ def main():
     current_dir = os.path.dirname(os.path.abspath(__file__))
 
     input_file = os.path.join(current_dir, 'problema_02_input.txt')
-    output_file = os.path.join(current_dir, 'output.txt')
+    output_file = os.path.join(current_dir, 'problema_02_output.txt')
 
     try:
         with open(input_file, 'r') as br:
